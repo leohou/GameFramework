@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name = "GameSDK"
+  s.name = "GameFramework"
   s.version = "1.0"
-  s.summary = "GameSDK"
+  s.summary = "GameFramework"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"wesaiPublic"=>"app@wesai.com"}
   s.homepage = "https://github.com/leohou/GameFramework"
