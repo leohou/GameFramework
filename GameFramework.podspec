@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description = "TODO: Add long description of the pod here."
   s.frameworks = ["UIKit", "Foundation", "CoreTelephony", "SystemConfiguration", "CoreGraphics", "AdSupport", "Security", "WebKit","StoreKit","Accelerate","MobileCoreServices",]
   #系统的.a
-  s.libraries = ['libsqlite3']
+  s.libraries = 'libsqlite3'
   s.xcconfig = {"OTHER_LDFLAGS"=>"-ObjC"}
   s.source = { :git => 'https://github.com/leohou/GameFramework.git', :tag =>s.version  }
   s.platform                  = :ios
