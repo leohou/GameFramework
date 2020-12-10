@@ -22,4 +22,5 @@ FOUNDATION_EXPORT const unsigned char GameFrameworkVersionString[];
 #import <FBSDKShareKit/FBSDKSharePhoto.h>
 #import <FBSDKShareKit/FBSDKSharePhotoContent.h>
 #import <FBSDKShareKit/FBSDKShareVideoContent.h>
+#import "GameSDK.h"
 

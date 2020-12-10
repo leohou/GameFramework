@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LOGIN</key>
+	<dict>
+		<key>PHONE</key>
+		<true/>
+		<key>QQ</key>
+		<true/>
+		<key>TOURIST</key>
+		<true/>
+		<key>WESAI_WS</key>
+		<true/>
+		<key>WX</key>
+		<true/>
+	</dict>
+	<key>WS_ALI_APP_ID</key>
+	<string>2021001163651847</string>
+	<key>WS_APP_ID</key>
+	<string>f97382301493493393361afde1f45327</string>
+	<key>WS_APP_SECRET</key>
+	<string>ffd730ef-6fea-45a5-9b8b-25f31f6ba514</string>
+	<key>WS_CHANNEL_ID</key>
+	<string>wesaigf</string>
+	<key>WS_QQ_APP_ID</key>
+	<string>101879142</string>
+	<key>WS_Universal_Links</key>
+	<string>https://web.wesaigame.cn/xxl/</string>
+	<key>WS_WX_APP_ID</key>
+	<string>wx3715191078141cb5</string>
+	<key>WS_WX_APP_SECRET</key>
+	<string>eeced9aea7300ad426e5486b873590d3</string>
+	<key>WS_IS_Landscape</key>
+	<true/>
+</dict>
+</plist>
