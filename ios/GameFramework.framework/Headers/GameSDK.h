@@ -3,7 +3,8 @@
 //  iOSSDK
 //
 //  Created by 侯力 on 2020/10/22.
-//  海外版1.1-facebooklogin
+//  海外版1.0-facebooklogin
+//  海外版1.1-支付相关
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -50,7 +51,44 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)facebookUserList;
 
+#pragma mark 支付相关的
 
+/**
+ * 获取商品列表
+ * completion  回调 结果 以数组方式返回
+ */
+- (void)gameProductList:(GameRequestModel *)model Completion:(ResultHandler)completion;
+/**
+ * 获取商品信息
+ * productId 商品id 必传
+ * completion  回调 结果 以数组方式返回
+ */
+- (void)gameProductInfo:(GameRequestModel *)model Completion:(ResultHandler)completion;
+/**
+ *  支付统一下单接口
+ * productid 商品id
+ *
+ * completion  回调 结果 字典方式返回
+ */
+- (void)gamePayUnifiedorder:(GameRequestModel *)model Completion:(ResultHandler)completion;
+/**
+ * productid 商品id
+ * completion  回调 结果 字典方式返回
+ */
+//TODO
+- (void)gamePayShow:(GameRequestModel *)model Completion:(ResultHandler)completion;
+
+/**
+ *  消费记录
+ * completion  回调 结果 字典方式返回
+ */
+- (void)gamePayTracker:(GameRequestModel *)model Completion:(ResultHandler)completion;
+/**
+ *  红包对换记录
+ * model   发红包需要的参数  model.userId用户id   model.record 查询个人 或者 全部 兑换记录
+ * completion  回调 结果
+ */
+-(void)gameExchangeRecord:(GameRequestModel *)model Completion:(ResultHandler)completion;
 @end
 
 NS_ASSUME_NONNULL_END
