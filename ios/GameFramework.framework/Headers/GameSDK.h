@@ -5,7 +5,7 @@
 //  Created by 侯力 on 2020/10/22.
 //  海外版1.0-facebooklogin
 //  海外版1.1-支付相关
-
+//  facebook 好友列表
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "FrameworkType.h"

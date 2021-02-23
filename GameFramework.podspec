@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "GameFramework"
-  s.version = "0.4"
+  s.version = "0.4.1"
   s.summary = "GameFramework"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"wesaiPublic"=>"app@wesai.com"}
